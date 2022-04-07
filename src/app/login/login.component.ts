@@ -13,6 +13,7 @@ export class LoginComponent implements OnInit {
   password:string="";
   error?:string;
   status:boolean=false;
+  
  
   // Register Variables
  
@@ -31,7 +32,9 @@ export class LoginComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  checkIt(){
 
+  }
   toggle(){
     this.logform=this.logform?false:true;
  }

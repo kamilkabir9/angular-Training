@@ -33,9 +33,25 @@
     {
       "email": "arun@gmail.com",
       "password": "$2a$10$OnsgcDNA37RLf4PXYvFAo.dXzhHoi8uA16.2qxYWuqt30JKePnAHm",
-      "firstname": "arun",
+      "username": "arun",
       "lastname": "Kumar",
       "id": 7
+    },
+    {
+      "email": "arunx@gmail.com",
+      "password": "$2a$10$k5t5rxf53W9CM1woHQwZ7uNCSkOcoCLHznwRIExSgd0xd1kW4bXVq",
+      "username": "arun",
+      "lastname": "Kumar",
+      "type": "user",
+      "id": 8
+    },
+    {
+      "email": "kiranx@gmail.com",
+      "password": "$2a$10$pfn.LmSzsHTj/ToCjphSU.cqkXsPTpSuIUgzi9/ahJDQg7bIjZqyW",
+      "username": "Kiran",
+      "lastname": "Kumar",
+      "type": "admin",
+      "id": 9
     }
   ],
   "products": [
