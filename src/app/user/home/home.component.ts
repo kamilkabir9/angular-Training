@@ -6,7 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
-
+  pictures:string[]=["shipping.png","wishlist.png","profile.png"];
+  urls:string[]=["orders","wishlist","profile"];
+  strings:string[]=["Orders","Wishlist","Profile"];
+  
   constructor() { }
 
   ngOnInit(): void {

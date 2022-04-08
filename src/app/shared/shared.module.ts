@@ -12,6 +12,7 @@ import { MaterialModule } from '../material/material.module';
   imports: [
     CommonModule,
     MaterialModule
-  ]
+  ],
+  exports:[MenuOutlineComponent]
 })
 export class SharedModule { }
