@@ -1,0 +1,13 @@
+<div class="product-container">
+    <h1>{{producttitle}}</h1>
+    <div id="corner-arrow-left"  [scrollback]="100" >
+         <img src="http://localhost:8090/left-arrow.png" />
+    </div>
+    <div id="corner-arrow-right" [scroll]="100"  >
+         <img src="http://localhost:8090/right-arrow.png" />
+    </div>
+<div class="product-scroll">
+    <app-product *ngFor="let x of products" [product]="x" ></app-product>
+   
+</div>
+</div>
