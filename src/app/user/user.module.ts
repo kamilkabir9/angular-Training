@@ -7,6 +7,8 @@ import { UserhomeComponent } from './userhome/userhome.component';
 import { SharedModule } from '../shared/shared.module';
 import { ProductComponent } from './userhome/product/product.component';
 import { ProductrowComponent } from './userhome/productrow/productrow.component';
+import { DetailsComponent } from './userhome/details/details.component';
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -14,12 +16,14 @@ import { ProductrowComponent } from './userhome/productrow/productrow.component'
     HomeComponent,
     UserhomeComponent,
     ProductComponent,
-    ProductrowComponent
+    ProductrowComponent,
+    DetailsComponent
   ],
   imports: [
     CommonModule,
     UserRoutingModule,
-    SharedModule
+    SharedModule,
+    FormsModule
   ]
 })
 export class UserModule { }

@@ -13,4 +13,10 @@ export class ProductComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  changeRoute(){
+  
+      this.router.navigate(['details'],{relativeTo:this.route,state:this.product});
+    
+  }
+
 }
