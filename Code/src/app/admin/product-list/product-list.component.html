@@ -1,0 +1,22 @@
+<div style="margin-top: 5px;">
+    <mat-card style="background-color: rgb(5, 172, 116);">Product List</mat-card>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th scope="col">Name</th>
+                <th scope="col">Price</th>
+                <th scope="col">Description</th>
+                <th scope="col">Type</th>
+            </tr>
+        </thead>
+        <tbody>
+
+            <tr *ngFor="let product of products">
+                <td>{{product.name}}</td>
+                <td>{{product.price}}</td>
+                <td>{{product.description}}</td>
+                <td>{{product.type}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

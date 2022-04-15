@@ -1,0 +1,22 @@
+<div  id="container" >
+    <h1>Write Us</h1>
+    <div>
+        <form class="example-form" [formGroup]="complaintForm" (ngSubmit)="sendComplaint()">
+            <mat-form-field class="example-full-width" appearance="fill">
+              <mat-label>Subject</mat-label>
+              <input matInput placeholder="Subject" formControlName="subject">
+            </mat-form-field>
+          
+            <mat-form-field class="example-full-width" appearance="fill">
+              <mat-label>Message</mat-label>
+              <textarea matInput placeholder="Your Message to us" formControlName="message"></textarea>
+            </mat-form-field>
+            <button mat-flat-button color="primary" type="submit">Send Message</button>
+          </form>
+    </div>
+
+    <div>
+        <h2>Contact Us</h2>
+        <h3>lorem ipsum </h3>
+    </div>
+</div>

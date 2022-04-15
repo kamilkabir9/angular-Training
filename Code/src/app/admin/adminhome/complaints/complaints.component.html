@@ -1,0 +1,24 @@
+<div id="container">
+
+    <mat-card style="background-color: rgb(243, 115, 157);">Complaints</mat-card>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th scope="col">From</th>
+                <th scope="col">Subject</th>
+                <th scope="col">Message</th>
+                <th scope="col">Reply</th>
+            </tr>
+        </thead>
+        <tbody>
+
+            <tr *ngFor="let cp of complaints">
+                <td>{{cp.from}}</td>
+                <td>{{cp.subject}}</td>
+                <td>{{cp.message}}</td>
+                <td><button mat-flat-button color="accent" (click)="openReplyBox(cp)">Reply</button> </td>
+            </tr>
+        </tbody>
+    </table>
+
+</div>

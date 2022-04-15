@@ -1,0 +1,13 @@
+<div>
+    <h1>{{userComplaint.subject}}</h1>
+    <h3>{{userComplaint.message}}</h3>
+</div>
+
+<form class="example-form" [formGroup]="replyForm" (ngSubmit)="sendReply()">
+
+    <mat-form-field class="example-full-width" appearance="fill">
+        <mat-label>Message</mat-label>
+        <textarea matInput placeholder="Reply to user" formControlName="reply"></textarea>
+    </mat-form-field>
+    <button mat-flat-button color="primary" type="submit">Send Reply</button>
+</form>

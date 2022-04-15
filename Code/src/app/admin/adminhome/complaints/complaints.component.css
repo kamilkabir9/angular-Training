@@ -1,0 +1,30 @@
+p {
+  padding: 100px;
+  margin: 50px;
+}
+
+#container {
+  position: absolute;
+  top: 12%;
+  padding-left: 4%;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+@media only screen and (max-width: 721px) {
+  #container {
+    position: absolute;
+    top: 25%;
+    padding-left: 15%;
+  }
+}
+
+.example-form {
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.example-full-width {
+  width: 100%;
+}
